@@ -1,0 +1,525 @@
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face{
+    font-family: 'merriweather';
+    src: url(Font/Merriweather-Regular.ttf);
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blue;
+    width: 100%;
+    min-height: 45px;
+    z-index: 1;
+}
+
+a#icnn>img:hover {
+    background-color: rgb(31, 77, 161);
+    border-radius: 5px;
+}
+
+a#icnn>img {
+    height: 2.5em;
+    width: 2.5em;
+    display: inline-block;
+    padding: 10px;
+}
+button {
+     text-align: center;
+     color: rgb(123, 129, 134);
+     border-radius: 100px;
+     font-size: 10em;
+}
+
+.btn {
+    position: relative;
+    top: 3px;
+}
+
+.para {
+    color: cornsilk;
+    position: relative;
+    top: 15px;
+}
+
+
+
+.saylani {
+    position: fixed;
+    top: 45px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+.scontainer {
+    position: relative;
+    top: 5px;
+    left: 30px;
+    width: 30%;
+    height: 110px;
+}
+
+.s-links {
+    position: absolute;
+    top: 15px;
+    left: 500px;
+    display: inline;
+    
+
+}
+.home:hover, .news:hover, .about:hover, .media:hover, .saylaniservices:hover, .donation:hover, .fproject:hover, .contact:hover{
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.home, .news, .about, .media, .saylaniservices, .donation, .fproject, .contact {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+
+img#s-image {
+    width: 15em;
+    height: 5em;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.imagesaylani {
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    z-index: -1;
+}
+
+img#img {
+    max-width: 100%;
+    height: 450px;
+}
+.dailynews2 {
+    height: inherit;
+}
+
+.dailynews {
+    background-color: rgb(86, 86, 160);
+    position: relative;
+    top: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 30px;
+    margin-right: 15px;
+    height: 25px;
+    width: 95%;
+}
+
+h6 {
+    font-size: 8px;
+    color: white;
+         
+}
+
+.introduction {
+    position: absolute;
+    top: 650px;
+    left: 550px;
+    z-index: -1;
+}
+
+.intro {
+    color: rgb(79, 79, 199);
+    display: inline-block;  
+    text-transform: uppercase;
+}
+
+.duction {
+    color: olive;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.logo {
+    position: absolute;
+    top: 720px;
+    left: 650px;
+    z-index: -1;
+}
+
+.introductry-paras {
+    position: relative;
+    top: 750px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 15px;
+    color: rgb(158, 154, 154);
+    z-index: -1;
+}
+
+.contributions {
+    background-color: blue;
+    position: relative;
+    top: 800px;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: -1;
+}
+
+.cimg {
+    width: 3em;
+    height: 3em;
+    margin-left: 7.5em;
+
+}
+
+.imgcont {
+    position: relative;
+    top: 55px;
+    left: 0px;
+    width: 20em;
+    align-content: center;
+}
+
+.values {
+    font-size: 50px;
+    color: white;
+    font-family: Merriweather, serif;
+    text-align: center;
+}
+
+p#ds {
+    font-family: Merriweather, serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+
+span#dur {
+    font-family: Merriweather, serif;
+    font-weight: bold;
+    color: #00FF00;
+    text-align: center;
+    font-size: 20px;
+}
+.whtrvdng {
+    position: relative;
+    top: 850px;
+    left: 450px;
+    width: 35%;
+    z-index: -1;
+}
+.logo2 {
+    position: relative;
+    top: 850px;
+    left: 650px;
+    width: 40px;
+    z-index: -1;
+}
+.wrvd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* z-index: -1; */
+}
+.sadqah {
+    position: relative;
+    top: 900px;
+    border: black transparent;
+    box-shadow: 5px 10px 20px #888888;
+    width: 30%;
+    height: 200px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    text-align: center;
+    padding: 15px;
+    padding-right: 30px;
+    z-index: -1;
+}
+
+.wrvd2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+p#wrvd {
+    font-size: 1.5em;
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 90px;
+    margin-top: 40px;
+    margin-left: 100px;    
+}
+
+.uprojects {
+    position: relative;
+    top: 1000px;
+    left: 0px;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+}
+
+.cpro {
+    position: relative;
+    top: 40px;
+    left: 50px;
+    height: 300px;
+    width: 61%;
+}
+
+h1#mu {
+    text-transform: uppercase;
+    color: rgb(107, 107, 158);
+    font-family: Merriweather, serif;
+    font-weight: bold;    
+}
+
+.mpro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+}
+.hap {
+    background-color: whitesmoke;
+    width: 400px;
+    margin-top: 20PX;
+    height: 75PX;
+    padding-top: 20PX;
+}
+span#mpro {
+    font-family: Merriweather, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(111, 111, 165);
+    font-weight: bold;
+    padding-left: 24px;
+
+}
+.ue {
+    position: absolute;
+    top: 0px;
+    left: 900px;
+    width: 50%;
+}
+
+.pn {
+    margin-top: 20px;
+    width: 70%;
+    height: 250px;
+}
+h1#ue {
+    color: rgb(111, 111, 165);
+    font-family: Merriweather, serif;
+
+}
+
+marquee#pn {
+    height: 230px;
+    margin-top: 10px;
+    padding-right: 90px;
+}
+
+marquee>a {
+    text-decoration: none;
+    color: rgb(111, 111, 165);
+}
+
+.imglry {
+    position: relative;
+    top: 990px;
+    left: 550px;
+    width: 500px;
+    height: 200px;
+    z-index: -1;
+}
+
+.logo3 {
+    position: relative;
+    top: 0px;
+    left: 120px;
+    width: 40px;
+}
+
+.imgg2 {
+    color: rgb(79, 79, 199);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Merriweather, serif;
+}
+
+.glry {
+    color: olive;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 900px;
+    z-index: -1;
+}
+
+img#img1 {
+    width: 230px;
+    height: 150px;
+    padding-left: 4px;
+}
+
+.img1{
+    height: 300px;
+}
+
+.cantkt {
+    background-color: #333;
+    position: relative;
+    top: 900px;
+    left: 0px;  
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+
+}
+
+.nmbrs {
+    position: relative;
+    left: 5em;
+    top: 5em;
+    width: 30%;
+    height: 200px;
+}
+
+p#nmbrs {
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    padding-left: 5px;
+}
+
+img#nmbrs {
+    width: 1em;
+    height: 1em;
+    margin-right: 3px;
+    
+}
+
+img#nmbrs2 {
+    width: 1em;
+    height: 1em;
+    margin-left: 20px;
+}
+
+.ulink {
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    width: 30%;
+}
+
+h5#ulink {
+    color: white;
+    font-weight: 500;
+    /* text-decoration: underline; */
+    font-family: Merriweather, serif;
+}
+
+.cwu {
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    width: 200px;
+    height: 100px;
+}
+
+h6#cwu {
+    width: 200px;
+    font-weight: 800;
+    color: white;
+    font-family: Merriweather, serif;
+
+}
+
+img#cwu {
+    margin: 0 5px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 150%;
+}
+
+
+footer {
+    position: relative;
+    top: 900px;
+    bottom: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(110, 110, 209);
+}
+
+p#ftr {
+    color: white;
+    height: inherit;
+    margin: 0px;
+}
+
+img#bt {
+    width: 3em;
+    height: 3em;
+}
+
+.bt {
+    opacity: 0.5;
+    border-radius: 5px;
+    background-color: rgb(177, 165, 165);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.bt:hover {
+    opacity: 1.0;
+    background-color: gray;
+}
